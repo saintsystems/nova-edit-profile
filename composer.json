@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SaintSystems\\Nova\\EditProfile": "src/"
+            "SaintSystems\\Nova\\EditProfile\\": "src/"
         }
     },
     "autoload-dev": {
