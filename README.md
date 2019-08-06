@@ -1,5 +1,7 @@
 # A tool to let user's update their profile in Laravel Nova
 
+Based on [runlinenl/nova-profile-tool](https://github.com/runlinenl/nova-profile-tool) with a few fixes, changes and improvements.
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/saintsystems/nova-edit-profile.svg?style=flat-square)](https://packagist.org/packages/saintsystems/nova-edit-profile)
 [![Total Downloads](https://img.shields.io/packagist/dt/saintsystems/nova-edit-profile.svg?style=flat-square)](https://packagist.org/packages/saintsystems/nova-edit-profile)
 
@@ -57,6 +59,7 @@ If you discover any security related issues, please email contact@saintsystems.c
 
 ## Credits
 
+- [Runline](https://github.com/runlinenl)
 - [Adam Anderly](https://github.com/anderly)
 - [Saint Systems](https://github.com/saintsystems)
 
