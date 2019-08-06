@@ -30,7 +30,7 @@ public function tools()
 {
     return [
         // ...
-        new \SaintSystems\Nova\EditProfile,
+        new \SaintSystems\Nova\EditProfile\EditProfile,
     ];
 }
 ```
