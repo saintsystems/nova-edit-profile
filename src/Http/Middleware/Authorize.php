@@ -1,6 +1,6 @@
 <?php
 
-namespace Runline\ProfileTool\Http\Middleware;
+namespace SaintSystems\Nova\EditProfile\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

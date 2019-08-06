@@ -1,10 +1,10 @@
 <?php
 
-namespace Runline\ProfileTool\Tests;
+namespace SaintSystems\Nova\EditProfile\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Runline\ProfileTool\ToolServiceProvider;
+use SaintSystems\Nova\EditProfile\ToolServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

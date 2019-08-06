@@ -1,9 +1,9 @@
 <?php
 
-namespace Runline\ProfileTool\Tests;
+namespace SaintSystems\Nova\EditProfile\Tests;
 
-use Runline\ProfileTool\Http\Controllers\ToolController;
-use Runline\ProfileTool\ProfileTool;
+use SaintSystems\Nova\EditProfile\Http\Controllers\ToolController;
+use SaintSystems\Nova\EditProfile\EditProfile;
 use Symfony\Component\HttpFoundation\Response;
 
 class ToolControllerTest extends TestCase
@@ -13,7 +13,7 @@ class ToolControllerTest extends TestCase
     {
         $this->assertTrue(true);
         // $this
-        //     ->post('nova-vendor/runlinenl/nova-profile-tool')
+        //     ->post('nova-vendor/saintsystems/nova-edit-profile')
         //     ->assertSuccessful();
     }
 }
