@@ -1,0 +1,53 @@
+{
+    "name": "saintsystems/nova-edit-profile",
+    "description": "A tool for Laravel Nova to allow users to edit their profile data.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "tool",
+        "profile"
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../nova"
+        }
+    ],
+    "homepage": "https://github.com/saintsystems/nova-edit-profile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saint Systems",
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.6",
+        "phpunit/phpunit": "7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaintSystems\\Nova\\EditProfile": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SaintSystems\\Nova\\EditProfile\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SaintSystems\\Nova\\EditProfile\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
